@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: inline-block;
+    position: fixed;
+    background-color:rgb(61, 61, 61);
+    width: 100%;
+    height: 8%;
+}
+
+.view{
+    display: block;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 92%;
+}
+
+.canvas {
+
+    border-color: grey;
+    border-style: solid;
+    border-width: 3px;
+    background-color: black;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.slider-box {
+    display: inline-block;
+    position:relative;
+    top: 15%;
+    width: 30%;
+    margin: 0;
+    
+}
+
+.slider {
+    -webkit-appearance: none;
+    border-radius: 10px;
+    height: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: block;
+    position: relative;
+    align-self: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: grey;
+}
+
+.slider-name {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color:black;
+}
+
+
+.button-box {
+    display: inline-block;
+    position: relative;
+    top: 15%;
+    width: 38%;
+    margin: 0;
+    
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    width: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: grey;
+}
+
+#square {
+    width: 23%;
+}
+
+.button-name {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: 3px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: sans-serif;
+    font-size: 150%;
+    color:black;
+}
